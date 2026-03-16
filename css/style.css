@@ -66,7 +66,7 @@ flex-wrap:wrap;
 justify-content:center;
 gap:25px;
 margin-top:30px;
-}
+} 
 
 .breed-card{
 background-color:#fff0f5;
@@ -81,8 +81,6 @@ width:100%;
 border-radius:10px;
 }
 
-/* next - breed card hover animation */
-/* when hovering over breed card it will go up a little bit and get a shadow
 .breed-card:hover{
 transform: translateY(-5px);
 box-shadow:0 8px 15px rgba(0,0,0,0.15);
@@ -90,8 +88,7 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
 } 
 */
 
-/* also next - join button make it look prettier */
-/* .join-button{
+.join-button{
 display:inline-block;
 padding:10px 20px;
 background-color:#ff69b4;
@@ -105,4 +102,3 @@ transition: background-color 0.3s ease;
 .join-button:hover{
 background-color:#ff85c1;
 }
-*/
