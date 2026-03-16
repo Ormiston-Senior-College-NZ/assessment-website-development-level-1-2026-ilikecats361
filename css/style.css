@@ -41,7 +41,7 @@ font-weight:700;
 }
 
 h2{
-color:#444;
+color:#1f0210c9;
 margin-bottom:15px;
 }
 
@@ -73,7 +73,8 @@ background-color:#fff0f5;
 padding:20px; /* gap between image and card edge */
 width:250px;
 border-radius:15px;
-box-shadow:0 4px 10px rgba(0,0,0,0.1); /* 0.1 is 10% opacity */
+box-shadow:0 4px 10px rgba(0,0,0,0.1); /* 0.1 is 10% opacity convert decimal to percentage for all opacity related stuff*/
+transition: transform 0.43s ease, box-shadow 0.41s ease;
 }
 
 .breed-card img{
@@ -83,17 +84,14 @@ border-radius:10px;
 
 .breed-card:hover{
 transform: translateY(-5px);
-box-shadow:0 8px 15px rgba(0,0,0,0.15);
-transition: transform 0.3s ease, box-shadow 0.3s ease;
-} 
-*/
+box-shadow:0 8px 15px rgba(0,0,0,0.16);
+}
 
 .join-button{
 display:inline-block;
 padding:10px 20px;
 background-color:#ff69b4;
 color:#ffffff;
-border:none;
 border-radius:20px;
 font-size:16px;
 cursor:pointer;
